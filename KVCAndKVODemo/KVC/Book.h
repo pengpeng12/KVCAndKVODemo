@@ -11,6 +11,6 @@
 @interface Book : NSObject{
     Author *_author;
 }
-@property NSString *name;
-@property float price;
+@property(nonatomic,strong)NSString *name;
+@property(nonatomic, assign)float price;
 @end
