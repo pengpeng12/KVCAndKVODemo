@@ -15,6 +15,10 @@
 		18D96C121E07C37C00F87C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D96C101E07C37C00F87C57 /* LaunchScreen.storyboard */; };
 		18D96C1D1E07C37C00F87C57 /* KVCAndKVODemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D96C1C1E07C37C00F87C57 /* KVCAndKVODemoTests.m */; };
 		18D96C281E07C37C00F87C57 /* KVCAndKVODemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D96C271E07C37C00F87C57 /* KVCAndKVODemoUITests.m */; };
+		18D96C391E07C4E400F87C57 /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D96C381E07C4E400F87C57 /* dog.m */; };
+		18D96C3D1E07C52C00F87C57 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D96C3C1E07C52C00F87C57 /* Person.m */; };
+		18D96C401E08CD0600F87C57 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D96C3F1E08CD0600F87C57 /* Author.m */; };
+		18D96C431E08CDF700F87C57 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D96C421E08CDF700F87C57 /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		18D96C231E07C37C00F87C57 /* KVCAndKVODemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVCAndKVODemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D96C271E07C37C00F87C57 /* KVCAndKVODemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCAndKVODemoUITests.m; sourceTree = "<group>"; };
 		18D96C291E07C37C00F87C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D96C371E07C4E400F87C57 /* dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
+		18D96C381E07C4E400F87C57 /* dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dog.m; sourceTree = "<group>"; };
+		18D96C3B1E07C52C00F87C57 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		18D96C3C1E07C52C00F87C57 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		18D96C3E1E08CD0600F87C57 /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		18D96C3F1E08CD0600F87C57 /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
+		18D96C411E08CDF700F87C57 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		18D96C421E08CDF700F87C57 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,8 @@
 				18D96C061E07C37C00F87C57 /* AppDelegate.m */,
 				18D96C081E07C37C00F87C57 /* ViewController.h */,
 				18D96C091E07C37C00F87C57 /* ViewController.m */,
+				18D96C3A1E07C50C00F87C57 /* KVO */,
+				18D96C351E07C40600F87C57 /* KVC */,
 				18D96C0B1E07C37C00F87C57 /* Main.storyboard */,
 				18D96C0E1E07C37C00F87C57 /* Assets.xcassets */,
 				18D96C101E07C37C00F87C57 /* LaunchScreen.storyboard */,
@@ -138,6 +152,28 @@
 				18D96C291E07C37C00F87C57 /* Info.plist */,
 			);
 			path = KVCAndKVODemoUITests;
+			sourceTree = "<group>";
+		};
+		18D96C351E07C40600F87C57 /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				18D96C371E07C4E400F87C57 /* dog.h */,
+				18D96C381E07C4E400F87C57 /* dog.m */,
+				18D96C3B1E07C52C00F87C57 /* Person.h */,
+				18D96C3C1E07C52C00F87C57 /* Person.m */,
+				18D96C3E1E08CD0600F87C57 /* Author.h */,
+				18D96C3F1E08CD0600F87C57 /* Author.m */,
+				18D96C411E08CDF700F87C57 /* Book.h */,
+				18D96C421E08CDF700F87C57 /* Book.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		18D96C3A1E07C50C00F87C57 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KVO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +314,10 @@
 			files = (
 				18D96C0A1E07C37C00F87C57 /* ViewController.m in Sources */,
 				18D96C071E07C37C00F87C57 /* AppDelegate.m in Sources */,
+				18D96C401E08CD0600F87C57 /* Author.m in Sources */,
+				18D96C3D1E07C52C00F87C57 /* Person.m in Sources */,
+				18D96C391E07C4E400F87C57 /* dog.m in Sources */,
+				18D96C431E08CDF700F87C57 /* Book.m in Sources */,
 				18D96C041E07C37C00F87C57 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
