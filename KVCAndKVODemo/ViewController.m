@@ -11,7 +11,12 @@
 #import "dog.h"
 #import "Author.h"
 #import "Book.h"
-@interface ViewController ()
+
+#import "Children.h"
+#import "Nurse.h"
+@interface ViewController (){
+    Nurse *_nurse;
+}
 
 @end
 
@@ -78,7 +83,9 @@
     
     
     
-    
+    //KVO
+    Children *child = [[Children alloc] init];
+    _nurse = [[Nurse alloc] initWithChildren:child];
     
 }
 

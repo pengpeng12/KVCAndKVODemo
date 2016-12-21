@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 @class Children;
-@interface Nure : NSObject{
+@interface Nurse : NSObject{
     Children *_children;
 }
 - (instancetype)initWithChildren:(Children *)children;

@@ -15,6 +15,7 @@
         //启动定时器
         [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerAction) userInfo:nil repeats:YES];
         self.happyValue = 100;
+        self.hurryValue = 100;
     }
     return self;
 }

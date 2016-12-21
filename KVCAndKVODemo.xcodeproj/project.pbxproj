@@ -20,7 +20,7 @@
 		18D96C401E08CD0600F87C57 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D96C3F1E08CD0600F87C57 /* Author.m */; };
 		18D96C431E08CDF700F87C57 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D96C421E08CDF700F87C57 /* Book.m */; };
 		18D96C461E08FF3800F87C57 /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D96C451E08FF3800F87C57 /* Children.m */; };
-		18D96C491E09022200F87C57 /* Nure.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D96C481E09022200F87C57 /* Nure.m */; };
+		18D96C491E09022200F87C57 /* Nurse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D96C481E09022200F87C57 /* Nurse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,8 @@
 		18D96C421E08CDF700F87C57 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		18D96C441E08FF3800F87C57 /* Children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
 		18D96C451E08FF3800F87C57 /* Children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
-		18D96C471E09022200F87C57 /* Nure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nure.h; sourceTree = "<group>"; };
-		18D96C481E09022200F87C57 /* Nure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nure.m; sourceTree = "<group>"; };
+		18D96C471E09022200F87C57 /* Nurse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nurse.h; sourceTree = "<group>"; };
+		18D96C481E09022200F87C57 /* Nurse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nurse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,8 +180,8 @@
 			children = (
 				18D96C441E08FF3800F87C57 /* Children.h */,
 				18D96C451E08FF3800F87C57 /* Children.m */,
-				18D96C471E09022200F87C57 /* Nure.h */,
-				18D96C481E09022200F87C57 /* Nure.m */,
+				18D96C471E09022200F87C57 /* Nurse.h */,
+				18D96C481E09022200F87C57 /* Nurse.m */,
 			);
 			path = KVO;
 			sourceTree = "<group>";
@@ -329,7 +329,7 @@
 				18D96C391E07C4E400F87C57 /* dog.m in Sources */,
 				18D96C431E08CDF700F87C57 /* Book.m in Sources */,
 				18D96C461E08FF3800F87C57 /* Children.m in Sources */,
-				18D96C491E09022200F87C57 /* Nure.m in Sources */,
+				18D96C491E09022200F87C57 /* Nurse.m in Sources */,
 				18D96C041E07C37C00F87C57 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +568,7 @@
 				18D96C2E1E07C37C00F87C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D96C2F1E07C37C00F87C57 /* Build configuration list for PBXNativeTarget "KVCAndKVODemoTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +577,7 @@
 				18D96C311E07C37C00F87C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D96C321E07C37C00F87C57 /* Build configuration list for PBXNativeTarget "KVCAndKVODemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +586,7 @@
 				18D96C341E07C37C00F87C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
